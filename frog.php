@@ -9,6 +9,10 @@ class frog extends animal{
     public $legs = 4;
     function get_legs(){
 		echo 'jumlah kaki kodok: ' . $this->legs . ' --> tes jika kodok tidak mewarisi sifat kaki=2 dari animal'; 
+    }
+    public $cold_blooded = true;
+    function get_cold_blooded(){
+		echo 'kodok bedarah dingin:' . $this->cold_blooded;
 	}
 }
 
