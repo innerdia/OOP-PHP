@@ -29,4 +29,5 @@ $kodok->jump() ; // "hop hop"
 echo "<br>";
 echo $kodok->get_legs(); //4
 echo "<br>";
+echo $kodok->get_cold_blooded(); //true
 ?>
